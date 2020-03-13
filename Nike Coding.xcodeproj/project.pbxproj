@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CD802E935D49C5044BB125 /* Pods_Nike_Coding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D3720BD840BCB17D0E625E /* Pods_Nike_Coding.framework */; };
 		238BC35C241BB6C1002BBFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC35B241BB6C1002BBFD5 /* AppDelegate.swift */; };
 		238BC35E241BB6C1002BBFD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC35D241BB6C1002BBFD5 /* SceneDelegate.swift */; };
 		238BC360241BB6C1002BBFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC35F241BB6C1002BBFD5 /* ViewController.swift */; };
@@ -14,6 +15,24 @@
 		238BC365241BB6C5002BBFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238BC364241BB6C5002BBFD5 /* Assets.xcassets */; };
 		238BC368241BB6C5002BBFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238BC366241BB6C5002BBFD5 /* LaunchScreen.storyboard */; };
 		238BC373241BB6C6002BBFD5 /* Nike_CodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC372241BB6C6002BBFD5 /* Nike_CodingTests.swift */; };
+		238BC37F241BB7F3002BBFD5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC37E241BB7F3002BBFD5 /* NetworkManager.swift */; };
+		238BC382241BB934002BBFD5 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC381241BB934002BBFD5 /* Album.swift */; };
+		238BC385241BC246002BBFD5 /* TracksListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC384241BC246002BBFD5 /* TracksListViewModel.swift */; };
+		238BC388241BC315002BBFD5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC387241BC315002BBFD5 /* Constants.swift */; };
+		238BC38B241BC988002BBFD5 /* TracksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC38A241BC988002BBFD5 /* TracksListViewController.swift */; };
+		238BC38E241BCBB6002BBFD5 /* TrackListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC38D241BCBB6002BBFD5 /* TrackListViewCell.swift */; };
+		238BC391241BD21A002BBFD5 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC390241BD21A002BBFD5 /* UICollectionView+Extensions.swift */; };
+		238BC393241BD3A5002BBFD5 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC392241BD3A5002BBFD5 /* NSObject+Extensions.swift */; };
+		238BC395241BD461002BBFD5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC394241BD461002BBFD5 /* Utility.swift */; };
+		238BC397241BD7C3002BBFD5 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC396241BD7C3002BBFD5 /* UIFont+Extensions.swift */; };
+		23F3BCDF241BFEC60046F04C /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3BCDE241BFEC60046F04C /* TrackDetailsViewController.swift */; };
+		23F3BCE1241C01CA0046F04C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3BCE0241C01CA0046F04C /* UIViewController+Extensions.swift */; };
+		23F3BCE8241C23640046F04C /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 23F3BCE7241C23640046F04C /* MockResponse.json */; };
+		23F3BCE9241C23640046F04C /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 23F3BCE7241C23640046F04C /* MockResponse.json */; };
+		23F3BCEB241C23D10046F04C /* JsonLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3BCEA241C23D10046F04C /* JsonLoad.swift */; };
+		23F3BCEC241C23D10046F04C /* JsonLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3BCEA241C23D10046F04C /* JsonLoad.swift */; };
+		23F3BCF2241C2A620046F04C /* TracksListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3BCF0241C2A620046F04C /* TracksListViewModelTests.swift */; };
+		4AE029AAF2B3E656B32E64AA /* Pods_Nike_CodingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14412AB688E7FE9FB3A99C16 /* Pods_Nike_CodingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00754C6B98ACDC24E373C23E /* Pods-Nike Coding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike Coding.release.xcconfig"; path = "Target Support Files/Pods-Nike Coding/Pods-Nike Coding.release.xcconfig"; sourceTree = "<group>"; };
+		14412AB688E7FE9FB3A99C16 /* Pods_Nike_CodingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_CodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEB60021A45EE48F51A39BB /* Pods-Nike Coding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike Coding.debug.xcconfig"; path = "Target Support Files/Pods-Nike Coding/Pods-Nike Coding.debug.xcconfig"; sourceTree = "<group>"; };
 		238BC358241BB6C1002BBFD5 /* Nike Coding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike Coding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		238BC35B241BB6C1002BBFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		238BC35D241BB6C1002BBFD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +60,25 @@
 		238BC36E241BB6C6002BBFD5 /* Nike CodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nike CodingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		238BC372241BB6C6002BBFD5 /* Nike_CodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike_CodingTests.swift; sourceTree = "<group>"; };
 		238BC374241BB6C6002BBFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238BC37E241BB7F3002BBFD5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		238BC381241BB934002BBFD5 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		238BC384241BC246002BBFD5 /* TracksListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksListViewModel.swift; sourceTree = "<group>"; };
+		238BC387241BC315002BBFD5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		238BC38A241BC988002BBFD5 /* TracksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksListViewController.swift; sourceTree = "<group>"; };
+		238BC38D241BCBB6002BBFD5 /* TrackListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewCell.swift; sourceTree = "<group>"; };
+		238BC390241BD21A002BBFD5 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		238BC392241BD3A5002BBFD5 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		238BC394241BD461002BBFD5 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		238BC396241BD7C3002BBFD5 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		23F3BCDE241BFEC60046F04C /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
+		23F3BCE0241C01CA0046F04C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		23F3BCE3241C209B0046F04C /* Nike-Coding-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nike-Coding-Bridging-Header.h"; sourceTree = "<group>"; };
+		23F3BCE7241C23640046F04C /* MockResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockResponse.json; sourceTree = "<group>"; };
+		23F3BCEA241C23D10046F04C /* JsonLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoad.swift; sourceTree = "<group>"; };
+		23F3BCF0241C2A620046F04C /* TracksListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksListViewModelTests.swift; sourceTree = "<group>"; };
+		3BC764099773028DEADD102D /* Pods-Nike CodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CodingTests.release.xcconfig"; path = "Target Support Files/Pods-Nike CodingTests/Pods-Nike CodingTests.release.xcconfig"; sourceTree = "<group>"; };
+		67D3720BD840BCB17D0E625E /* Pods_Nike_Coding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_Coding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2131609BC84094A7D85868 /* Pods-Nike CodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CodingTests.debug.xcconfig"; path = "Target Support Files/Pods-Nike CodingTests/Pods-Nike CodingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CD802E935D49C5044BB125 /* Pods_Nike_Coding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE029AAF2B3E656B32E64AA /* Pods_Nike_CodingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +107,8 @@
 				238BC35A241BB6C1002BBFD5 /* Nike Coding */,
 				238BC371241BB6C6002BBFD5 /* Nike CodingTests */,
 				238BC359241BB6C1002BBFD5 /* Products */,
+				63C0FA03613FCAFA541F3782 /* Pods */,
+				239E3A6130024E483FC4CE85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +124,14 @@
 		238BC35A241BB6C1002BBFD5 /* Nike Coding */ = {
 			isa = PBXGroup;
 			children = (
+				23F3BCE6241C23500046F04C /* MockData */,
+				23F3BCE2241C206B0046F04C /* SupportingFiles */,
+				238BC38F241BD1FD002BBFD5 /* Extensions */,
+				238BC389241BC937002BBFD5 /* View Controllers */,
+				238BC386241BC2F3002BBFD5 /* Utility */,
+				238BC383241BC22D002BBFD5 /* ViewModel */,
+				238BC380241BB913002BBFD5 /* Data Model */,
+				238BC37D241BB7D3002BBFD5 /* Network Manager */,
 				238BC35B241BB6C1002BBFD5 /* AppDelegate.swift */,
 				238BC35D241BB6C1002BBFD5 /* SceneDelegate.swift */,
 				238BC35F241BB6C1002BBFD5 /* ViewController.swift */,
@@ -94,9 +147,109 @@
 			isa = PBXGroup;
 			children = (
 				238BC372241BB6C6002BBFD5 /* Nike_CodingTests.swift */,
+				23F3BCF0241C2A620046F04C /* TracksListViewModelTests.swift */,
 				238BC374241BB6C6002BBFD5 /* Info.plist */,
 			);
 			path = "Nike CodingTests";
+			sourceTree = "<group>";
+		};
+		238BC37D241BB7D3002BBFD5 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				238BC37E241BB7F3002BBFD5 /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		238BC380241BB913002BBFD5 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				238BC381241BB934002BBFD5 /* Album.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		238BC383241BC22D002BBFD5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				238BC384241BC246002BBFD5 /* TracksListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		238BC386241BC2F3002BBFD5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				238BC387241BC315002BBFD5 /* Constants.swift */,
+				238BC394241BD461002BBFD5 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		238BC389241BC937002BBFD5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				238BC38C241BCB9F002BBFD5 /* Cells */,
+				238BC38A241BC988002BBFD5 /* TracksListViewController.swift */,
+				23F3BCDE241BFEC60046F04C /* TrackDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		238BC38C241BCB9F002BBFD5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				238BC38D241BCBB6002BBFD5 /* TrackListViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		238BC38F241BD1FD002BBFD5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				238BC390241BD21A002BBFD5 /* UICollectionView+Extensions.swift */,
+				238BC396241BD7C3002BBFD5 /* UIFont+Extensions.swift */,
+				238BC392241BD3A5002BBFD5 /* NSObject+Extensions.swift */,
+				23F3BCE0241C01CA0046F04C /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		239E3A6130024E483FC4CE85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67D3720BD840BCB17D0E625E /* Pods_Nike_Coding.framework */,
+				14412AB688E7FE9FB3A99C16 /* Pods_Nike_CodingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23F3BCE2241C206B0046F04C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				23F3BCE3241C209B0046F04C /* Nike-Coding-Bridging-Header.h */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		23F3BCE6241C23500046F04C /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				23F3BCE7241C23640046F04C /* MockResponse.json */,
+				23F3BCEA241C23D10046F04C /* JsonLoad.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		63C0FA03613FCAFA541F3782 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB60021A45EE48F51A39BB /* Pods-Nike Coding.debug.xcconfig */,
+				00754C6B98ACDC24E373C23E /* Pods-Nike Coding.release.xcconfig */,
+				FE2131609BC84094A7D85868 /* Pods-Nike CodingTests.debug.xcconfig */,
+				3BC764099773028DEADD102D /* Pods-Nike CodingTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 238BC377241BB6C6002BBFD5 /* Build configuration list for PBXNativeTarget "Nike Coding" */;
 			buildPhases = (
+				0E2087824598AB0271DA0DAF /* [CP] Check Pods Manifest.lock */,
 				238BC354241BB6C1002BBFD5 /* Sources */,
 				238BC355241BB6C1002BBFD5 /* Frameworks */,
 				238BC356241BB6C1002BBFD5 /* Resources */,
+				234D3E239A3F7E88A72DD439 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 238BC37A241BB6C6002BBFD5 /* Build configuration list for PBXNativeTarget "Nike CodingTests" */;
 			buildPhases = (
+				D892BDA453F7597321F2C886 /* [CP] Check Pods Manifest.lock */,
 				238BC36A241BB6C6002BBFD5 /* Sources */,
 				238BC36B241BB6C6002BBFD5 /* Frameworks */,
 				238BC36C241BB6C6002BBFD5 /* Resources */,
@@ -182,6 +338,7 @@
 			files = (
 				238BC368241BB6C5002BBFD5 /* LaunchScreen.storyboard in Resources */,
 				238BC365241BB6C5002BBFD5 /* Assets.xcassets in Resources */,
+				23F3BCE8241C23640046F04C /* MockResponse.json in Resources */,
 				238BC363241BB6C1002BBFD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,19 +347,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F3BCE9241C23640046F04C /* MockResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2087824598AB0271DA0DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nike Coding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234D3E239A3F7E88A72DD439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nike Coding/Pods-Nike Coding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nike Coding/Pods-Nike Coding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nike Coding/Pods-Nike Coding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D892BDA453F7597321F2C886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nike CodingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		238BC354241BB6C1002BBFD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238BC38E241BCBB6002BBFD5 /* TrackListViewCell.swift in Sources */,
+				238BC37F241BB7F3002BBFD5 /* NetworkManager.swift in Sources */,
+				238BC391241BD21A002BBFD5 /* UICollectionView+Extensions.swift in Sources */,
+				23F3BCEB241C23D10046F04C /* JsonLoad.swift in Sources */,
 				238BC360241BB6C1002BBFD5 /* ViewController.swift in Sources */,
 				238BC35C241BB6C1002BBFD5 /* AppDelegate.swift in Sources */,
+				238BC393241BD3A5002BBFD5 /* NSObject+Extensions.swift in Sources */,
 				238BC35E241BB6C1002BBFD5 /* SceneDelegate.swift in Sources */,
+				23F3BCE1241C01CA0046F04C /* UIViewController+Extensions.swift in Sources */,
+				238BC38B241BC988002BBFD5 /* TracksListViewController.swift in Sources */,
+				238BC395241BD461002BBFD5 /* Utility.swift in Sources */,
+				238BC388241BC315002BBFD5 /* Constants.swift in Sources */,
+				23F3BCDF241BFEC60046F04C /* TrackDetailsViewController.swift in Sources */,
+				238BC397241BD7C3002BBFD5 /* UIFont+Extensions.swift in Sources */,
+				238BC385241BC246002BBFD5 /* TracksListViewModel.swift in Sources */,
+				238BC382241BB934002BBFD5 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +445,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F3BCEC241C23D10046F04C /* JsonLoad.swift in Sources */,
+				23F3BCF2241C2A620046F04C /* TracksListViewModelTests.swift in Sources */,
 				238BC373241BB6C6002BBFD5 /* Nike_CodingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +597,7 @@
 		};
 		238BC378241BB6C6002BBFD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEB60021A45EE48F51A39BB /* Pods-Nike Coding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +616,7 @@
 		};
 		238BC379241BB6C6002BBFD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00754C6B98ACDC24E373C23E /* Pods-Nike Coding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +635,7 @@
 		};
 		238BC37B241BB6C6002BBFD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2131609BC84094A7D85868 /* Pods-Nike CodingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +658,7 @@
 		};
 		238BC37C241BB6C6002BBFD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC764099773028DEADD102D /* Pods-Nike CodingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

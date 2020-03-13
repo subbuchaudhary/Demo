@@ -1,0 +1,6 @@
+framework module Pods_Nike_Coding {
+  umbrella header "Pods-Nike Coding-umbrella.h"
+
+  export *
+  module * { export * }
+}
