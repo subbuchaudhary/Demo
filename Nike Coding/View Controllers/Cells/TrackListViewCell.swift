@@ -44,8 +44,12 @@ class TrackListViewCell: UICollectionViewCell {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+}
+
+// MARK: - Private Methods
+private extension TrackListViewCell {
     
-    private func setupUI() {
+    func setupUI() {
         self.layer.borderWidth = 1.0
         self.layer.borderColor = UIColor.clear.cgColor
 
@@ -57,7 +61,7 @@ class TrackListViewCell: UICollectionViewCell {
         self.layer.masksToBounds = false
     }
 
-    private func addViews() {
+    func addViews() {
         addSubview(albumCoverPic)
         addSubview(albumName)
         addSubview(artistName)

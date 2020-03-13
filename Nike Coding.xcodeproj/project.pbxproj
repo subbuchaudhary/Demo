@@ -10,7 +10,6 @@
 		04CD802E935D49C5044BB125 /* Pods_Nike_Coding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D3720BD840BCB17D0E625E /* Pods_Nike_Coding.framework */; };
 		238BC35C241BB6C1002BBFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC35B241BB6C1002BBFD5 /* AppDelegate.swift */; };
 		238BC35E241BB6C1002BBFD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC35D241BB6C1002BBFD5 /* SceneDelegate.swift */; };
-		238BC360241BB6C1002BBFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC35F241BB6C1002BBFD5 /* ViewController.swift */; };
 		238BC363241BB6C1002BBFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238BC361241BB6C1002BBFD5 /* Main.storyboard */; };
 		238BC365241BB6C5002BBFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238BC364241BB6C5002BBFD5 /* Assets.xcassets */; };
 		238BC368241BB6C5002BBFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238BC366241BB6C5002BBFD5 /* LaunchScreen.storyboard */; };
@@ -24,7 +23,6 @@
 		238BC391241BD21A002BBFD5 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC390241BD21A002BBFD5 /* UICollectionView+Extensions.swift */; };
 		238BC393241BD3A5002BBFD5 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC392241BD3A5002BBFD5 /* NSObject+Extensions.swift */; };
 		238BC395241BD461002BBFD5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC394241BD461002BBFD5 /* Utility.swift */; };
-		238BC397241BD7C3002BBFD5 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BC396241BD7C3002BBFD5 /* UIFont+Extensions.swift */; };
 		23F3BCDF241BFEC60046F04C /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3BCDE241BFEC60046F04C /* TrackDetailsViewController.swift */; };
 		23F3BCE1241C01CA0046F04C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3BCE0241C01CA0046F04C /* UIViewController+Extensions.swift */; };
 		23F3BCE8241C23640046F04C /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 23F3BCE7241C23640046F04C /* MockResponse.json */; };
@@ -52,7 +50,6 @@
 		238BC358241BB6C1002BBFD5 /* Nike Coding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike Coding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		238BC35B241BB6C1002BBFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		238BC35D241BB6C1002BBFD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		238BC35F241BB6C1002BBFD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		238BC362241BB6C1002BBFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		238BC364241BB6C5002BBFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		238BC367241BB6C5002BBFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +66,6 @@
 		238BC390241BD21A002BBFD5 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		238BC392241BD3A5002BBFD5 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
 		238BC394241BD461002BBFD5 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		238BC396241BD7C3002BBFD5 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		23F3BCDE241BFEC60046F04C /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 		23F3BCE0241C01CA0046F04C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		23F3BCE3241C209B0046F04C /* Nike-Coding-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nike-Coding-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -134,7 +130,6 @@
 				238BC37D241BB7D3002BBFD5 /* Network Manager */,
 				238BC35B241BB6C1002BBFD5 /* AppDelegate.swift */,
 				238BC35D241BB6C1002BBFD5 /* SceneDelegate.swift */,
-				238BC35F241BB6C1002BBFD5 /* ViewController.swift */,
 				238BC361241BB6C1002BBFD5 /* Main.storyboard */,
 				238BC364241BB6C5002BBFD5 /* Assets.xcassets */,
 				238BC366241BB6C5002BBFD5 /* LaunchScreen.storyboard */,
@@ -208,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				238BC390241BD21A002BBFD5 /* UICollectionView+Extensions.swift */,
-				238BC396241BD7C3002BBFD5 /* UIFont+Extensions.swift */,
 				238BC392241BD3A5002BBFD5 /* NSObject+Extensions.swift */,
 				23F3BCE0241C01CA0046F04C /* UIViewController+Extensions.swift */,
 			);
@@ -426,7 +420,6 @@
 				238BC37F241BB7F3002BBFD5 /* NetworkManager.swift in Sources */,
 				238BC391241BD21A002BBFD5 /* UICollectionView+Extensions.swift in Sources */,
 				23F3BCEB241C23D10046F04C /* JsonLoad.swift in Sources */,
-				238BC360241BB6C1002BBFD5 /* ViewController.swift in Sources */,
 				238BC35C241BB6C1002BBFD5 /* AppDelegate.swift in Sources */,
 				238BC393241BD3A5002BBFD5 /* NSObject+Extensions.swift in Sources */,
 				238BC35E241BB6C1002BBFD5 /* SceneDelegate.swift in Sources */,
@@ -435,7 +428,6 @@
 				238BC395241BD461002BBFD5 /* Utility.swift in Sources */,
 				238BC388241BC315002BBFD5 /* Constants.swift in Sources */,
 				23F3BCDF241BFEC60046F04C /* TrackDetailsViewController.swift in Sources */,
-				238BC397241BD7C3002BBFD5 /* UIFont+Extensions.swift in Sources */,
 				238BC385241BC246002BBFD5 /* TracksListViewModel.swift in Sources */,
 				238BC382241BB934002BBFD5 /* Album.swift in Sources */,
 			);

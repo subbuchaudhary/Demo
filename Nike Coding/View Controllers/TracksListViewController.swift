@@ -36,7 +36,6 @@ private extension TracksListViewController {
     func setupUI() {
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-        layout.itemSize = CGSize(width: view.frame.width, height: 700)
 
         tracksListView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
         tracksListView.dataSource = self

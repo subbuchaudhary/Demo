@@ -46,14 +46,9 @@ class TrackDetailsViewController: UIViewController {
         // App Store URL.
         guard let appStoreLink = dataFeed?.albumStoreUrl else { return }
          
-         /* First create a URL, then check whether there is an installed app that can
-            open it on the device. */
         if let url = URL(string: appStoreLink), UIApplication.shared.canOpenURL(url) {
            // Attempt to open the URL.
-           UIApplication.shared.open(url, options: [:], completionHandler: {(success: Bool) in
-              if success {
-                  print("Launching \(url) was successful")
-           }})
+           UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
 
     }

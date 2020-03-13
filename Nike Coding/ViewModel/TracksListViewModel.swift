@@ -10,15 +10,15 @@ import Foundation
 
 class TracksListViewModel {
 
+    // MARK: - Public Properties
     var albumDetails: [Results] = [] {
         didSet {
             dataUpdated?(albumDetails)
         }
     }
-    var isError: Bool = false
     var dataUpdated: (([Results]) -> Void)?
 
-
+    // MARK: - Public Methods
     func fetchAlbums() {
         NetworkManager.shared.fetchTrackList(urlString: Constants.rssUrlString, completion: { [weak self] result in
             guard let self = self else { return }
@@ -26,8 +26,8 @@ class TracksListViewModel {
             case .success(let response):
                 guard let results = response.feed?.results else { return }
                 self.albumDetails = results
-            case .failure( _):
-                self.isError = true
+            case .failure(let err):
+                print("failed with the error: \(err.localizedDescription)")
             }
         })
     }
