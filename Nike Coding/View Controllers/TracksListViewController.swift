@@ -11,14 +11,14 @@ import SDWebImage
 
 class TracksListViewController: UIViewController {
     
+    // MARK: - Private Properties
     private let viewModel = TracksListViewModel()
-    private let reuseIdentifier = "TrackListViewCell"
     private lazy var tracksListView: UICollectionView = UICollectionView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.fetchAlbums()
-        viewModel.dataUpdated = { [weak self] results in
+        viewModel.dataUpdated = { [weak self] _ in
             DispatchQueue.main.async {
                 self?.tracksListView.reloadData()
             }
@@ -40,7 +40,7 @@ private extension TracksListViewController {
         tracksListView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
         tracksListView.dataSource = self
         tracksListView.delegate = self
-        tracksListView.register(TrackListViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        tracksListView.register(TrackListViewCell.self)
         tracksListView.backgroundColor = UIColor.white
         tracksListView.autoresizingMask = [.flexibleHeight]
         self.view.addSubview(tracksListView)

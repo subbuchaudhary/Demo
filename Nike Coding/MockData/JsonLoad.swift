@@ -14,7 +14,9 @@ class JsonLoad {
         let data = self.getData(forResource: resource)
         return try? JSONDecoder().decode(T.self, from: data)
     }
-
+    
+    /// To pharse the local json file into the datamodel we can use this method
+    /// - Parameter resource: Pass the Json filename as parameter for this method
     func getData(forResource resource: String) -> Data {
         let bundle = Bundle.init(for: type(of: self))
 

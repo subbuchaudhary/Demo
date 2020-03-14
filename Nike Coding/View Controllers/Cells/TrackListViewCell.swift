@@ -9,6 +9,7 @@
 import UIKit
 
 class TrackListViewCell: UICollectionViewCell {
+    
     let albumName: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 11)
