@@ -29,8 +29,8 @@ class TrackDetailsViewController: UIViewController {
 
     private func setupUI() {
         self.heightValue.constant = Utility.isPad ? 113 : 56
-        if let url = dataFeed?.artworkUrl100 {
-            self.albumImage.sd_setImage(with: URL(string: url), placeholderImage: UIImage(named: "Music"))
+        if let urlString = dataFeed?.albumCoverArtUrl {
+            albumImage.downloadImage(from: urlString)
         }
         self.albumName.text = dataFeed?.albumName ?? "--"
         self.artistName.text = dataFeed?.artist ?? "--"

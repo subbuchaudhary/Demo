@@ -96,6 +96,14 @@ extension Results {
         return "Composed by \(artist)"
     }
     
+    var singer: String {
+        var name = ""
+        if let artistName = artistName {
+            name = artistName
+        }
+        return name
+    }
+    
     var copyRight: String {
         var copy = ""
         if let copyRight = copyright {
@@ -107,6 +115,14 @@ extension Results {
     var albumStoreUrl: String {
         var urlString = ""
         if let url = url {
+            urlString = url
+        }
+        return urlString
+    }
+    
+    var albumCoverArtUrl: String {
+        var urlString = ""
+        if let url = artworkUrl100 {
             urlString = url
         }
         return urlString

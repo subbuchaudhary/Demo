@@ -65,13 +65,10 @@ extension TracksListViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: TrackListViewCell = collectionView.dequeueReusableCell(for: indexPath)
         let result = viewModel.albumDetails[indexPath.row]
-        guard let urlString = result.artworkUrl100 else { return cell }
-        guard let artistName = result.artistName else { return cell}
-        guard let albumName = result.name else { return cell }
-        
-        cell.albumName.text = albumName
-        cell.artistName.text = artistName
-        cell.albumCoverPic.sd_setImage(with: URL(string: urlString), placeholderImage: UIImage(named: "Music"))
+
+        cell.albumName.text = result.albumName
+        cell.artistName.text = result.singer
+        cell.albumCoverPic.sd_setImage(with: URL(string: result.albumCoverArtUrl), placeholderImage: UIImage(named: "Music"))
         return cell
     }
 
